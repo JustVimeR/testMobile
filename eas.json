@@ -1,0 +1,11 @@
+{
+	"cli": { "version": ">= 11.0.0" },
+	"build": {
+		"production": { "autoIncrement": "version" }
+	},
+	"submit": {},
+	"update": {
+		"production": { "channel": "production" },
+		"preview": { "channel": "preview" }
+	}
+}
